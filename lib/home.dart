@@ -44,7 +44,6 @@ class _HomeScreenState extends State<HomeScreen> {
           const SizedBox(height: 16),
           ElevatedButton(
             onPressed: () {
-              // Mengirimkan seluruh alergi yang dipilih ke CameraScreen
               Navigator.push(
                 context,
                 MaterialPageRoute(
